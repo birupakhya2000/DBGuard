@@ -2,8 +2,8 @@
 ---
 ![NuGet Version](https://img.shields.io/nuget/v/DBGuard)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/DBGuard)
-![License](https://img.shields.io/github/license/yourusername/dbguard)
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/dbguard)
+![License](https://img.shields.io/github/license/birupakhya2000/dbguard)
+![GitHub Stars](https://img.shields.io/github/stars/birupakhya2000/dbguard)
 # DBGuard
 
 **DBGuard** is a **schema-aware validation library for Entity Framework Core** that prevents common SQL Server errors before data reaches the database.
