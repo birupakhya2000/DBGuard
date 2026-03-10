@@ -1,4 +1,10 @@
+## Keywords
 
+EF Core validation  
+SQL Server validation  
+Prevent "String or binary data would be truncated" error  
+Entity Framework Core interceptor  
+Database schema validation  
 ---
 ![NuGet Version](https://img.shields.io/nuget/v/DBGuard)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/DBGuard)
