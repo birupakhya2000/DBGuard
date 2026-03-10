@@ -1,10 +1,11 @@
+
 ---
 
 # DBGuard
 
 **DBGuard** is a **schema-aware validation library for Entity Framework Core** that prevents common SQL Server errors before data reaches the database.
 
-It automatically validates entity data against the **actual database schema** and throws clear, developer-friendly validation errors instead of cryptic SQL exceptions.
+It automatically validates entity data against the **actual database schema** and throws **clear, developer-friendly validation errors** instead of cryptic SQL exceptions.
 
 ---
 
@@ -50,10 +51,10 @@ Suggestion: Trim input or increase column length
 * Decimal precision validation
 * Numeric overflow validation
 * Date validation
-* EF Core SaveChanges interceptor
+* EF Core `SaveChanges` interceptor
 * Built-in logging support
 * Validation diagnostics metrics
-* Clear and developer-friendly error messages
+* Clear developer-friendly error messages
 
 ---
 
@@ -81,9 +82,13 @@ dotnet add package DBGuard
 
 ---
 
-# Quick Start
+# Getting Started
 
-## 1. Configure DBGuard
+Follow these steps to start using **DBGuard**.
+
+---
+
+# Step 1 — Configure DBGuard
 
 Add DBGuard to your service collection.
 
@@ -95,7 +100,7 @@ This loads the database schema and registers the validation engine.
 
 ---
 
-## 2. Register EF Core DbContext
+# Step 2 — Register EF Core DbContext
 
 ```csharp
 builder.Services.AddDbContext<AppDbContext>((sp, options) =>
@@ -111,7 +116,7 @@ DBGuard will now automatically validate entities before saving.
 
 ---
 
-## 3. Example Entity
+# Step 3 — Example Entity
 
 ```csharp
 public class User
@@ -126,7 +131,7 @@ public class User
 
 ---
 
-## 4. Example Database Table
+# Step 4 — Example Database Table
 
 ```sql
 CREATE TABLE Users
@@ -139,7 +144,7 @@ CREATE TABLE Users
 
 ---
 
-## 5. Example Insert
+# Step 5 — Example Insert
 
 ```csharp
 var user = new User
@@ -290,6 +295,35 @@ Developers immediately know **which column caused the issue**.
 
 ---
 
+# Troubleshooting
+
+### Login failed for user
+
+Ensure your connection string is correct and you are using either:
+
+Windows Authentication:
+
+```
+Trusted_Connection=True
+```
+
+or SQL Authentication:
+
+```
+User Id=yourUser;
+Password=yourPassword;
+```
+
+Do not use both together.
+
+---
+
+### Table not found in schema
+
+Ensure the table exists in the database and DBGuard can access it.
+
+---
+
 # Roadmap
 
 Future improvements:
@@ -305,7 +339,11 @@ Future improvements:
 
 # Contributing
 
-Contributions are welcome. Please submit pull requests or open issues.
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
 ---
 
@@ -320,3 +358,5 @@ MIT License
 Birupakhya Dash
 
 ---
+
+**serious open-source library**.
