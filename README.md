@@ -10,7 +10,7 @@ Database schema validation
 ![NuGet Downloads](https://img.shields.io/nuget/dt/DBGuard)
 ![License](https://img.shields.io/github/license/birupakhya2000/dbguard)
 ![GitHub Stars](https://img.shields.io/github/stars/birupakhya2000/dbguard)
-# DBGuard
+# DBGuard – EF Core Schema Validation Library
 
 **DBGuard** is a **schema-aware validation library for Entity Framework Core** that prevents common SQL Server errors before data reaches the database.
 
