@@ -20,7 +20,7 @@
 
   <PackageTags>database validation efcore sqlserver</PackageTags>
 
-  <RepositoryUrl>https://github.com/yourusername/dbguard</RepositoryUrl>
+  <RepositoryUrl>https://github.com/birupakhya2000/DBGuard</RepositoryUrl>
 
 </PropertyGroup>
 

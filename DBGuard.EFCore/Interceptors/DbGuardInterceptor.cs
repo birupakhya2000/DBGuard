@@ -1,4 +1,5 @@
-﻿using DBGuard.Core.Diagnostics;
+﻿using System.Threading;
+using DBGuard.Core.Diagnostics;
 using DBGuard.Core.Exceptions;
 using DBGuard.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
