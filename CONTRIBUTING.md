@@ -16,7 +16,7 @@ We welcome bug fixes, feature improvements, and documentation updates.
 
 Clone the repository:
 
-git clone https://github.com/birupakhya2000/dbguard.git
+git clone https://github.com/birupakhya2000/DBGuard.git
 
 Build the project:
 
