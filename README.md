@@ -356,6 +356,13 @@ Contributions are welcome.
 
 ---
 
+## Article
+
+Read full explanation here:
+(https://dev.to/birupakhya_dash_b781f4db3/fixing-the-string-or-binary-data-would-be-truncated-error-in-ef-core-2dji)
+
+---
+
 # License
 
 MIT License
